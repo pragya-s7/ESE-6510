@@ -115,7 +115,7 @@ def main(env_cfg: ManagerBasedRLEnvCfg | DirectRLEnvCfg | DirectMARLEnvCfg, agen
     # Modular reward scales.
     forward_progress_reward_scale = 100.0
     gate_pass_reward_scale = 25.0
-    lap_completed_reward_scale = 5.0
+    lap_completed_reward_scale = 0.0
     segment_velocity_reward_scale = 0.0
     crash_reward = -0.15
     death_cost = -10.0
